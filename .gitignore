@@ -1,0 +1,19 @@
+# 忽略 Visual Studio 临时文件和调试文件
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# 编译输出
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.exe
+
+# CMake 构建临时文件（如果有用到）
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+out/
